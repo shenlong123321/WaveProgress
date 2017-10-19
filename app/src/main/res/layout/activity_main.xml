@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:wave="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wave.MainActivity">
+
+    <com.example.wave.Wave
+        android:id="@+id/wave"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        wave:containerLength="100dp"
+        wave:containerHeight="100dp"
+        wave:waveColor="@color/wave"
+        wave:containerColor="@color/wave_container"
+        wave:containerShape="circle"
+        wave:waveSpeed="middle"
+        wave:waveHeight="0.5"
+        wave:waveLength="0.8"/>
+
+</RelativeLayout>

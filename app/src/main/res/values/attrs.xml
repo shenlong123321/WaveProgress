@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Wave">
+        <attr name="waveColor" format="reference"/>
+        <attr name="containerColor" format="reference"/>
+        <attr name="waveHeight" format="float"/>
+        <attr name="waveLength" format="float"/>
+        <attr name="containerLength" format="dimension"/>
+        <attr name="containerHeight" format="dimension"/>
+        <attr name="containerShape">
+            <enum name="circle" value="0"/>
+            <enum name="rectangle" value="1"/>
+        </attr>
+        <attr name="waveSpeed">
+            <enum name="low" value="0"/>
+            <enum name="middle" value="1"/>
+            <enum name="high" value="2"/>
+        </attr>
+    </declare-styleable>
+</resources>
